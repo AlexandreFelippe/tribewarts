@@ -42,3 +42,6 @@ option1.innerText = 'Gitnória';
 option2.innerText = 'Reactpuff';
 option3.innerText = 'Corvinode';
 option4.innerText = 'Pytherina';
+
+const getCheck = document.getElementById('checkSubject');
+form.appendChild(getCheck);

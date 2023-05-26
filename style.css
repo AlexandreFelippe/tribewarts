@@ -9,10 +9,16 @@
 
 main {
   display: flex;
+  flex-direction: column;   /* Essa linha está aqui somente durante os testes */
 }
 
 #evaluation-form {
   display: flex;
   width: 675px;
+  flex-direction: column;
+}
+
+#conteudo {
+  display: flex;
   flex-direction: column;
 }
