@@ -20,7 +20,7 @@
         <p>Senha:</p>
         <input type="password" name="password" id="input-password" placeholder="Senha" required>
       </label>
-      <button id="btn" type="submit" id="submit-btn">Entrar</button>
+      <button type="submit" id="submit-btn">Entrar</button>
 
 
 
@@ -30,6 +30,15 @@
   <main id="main">
     <form action=""></form>
     <form  method="get" action="" id="evaluation-form">
+      <label for="input-name">
+        <input type="text" name="email" id="input-name" placeholder="Nome" required>
+      </label>
+      <label for="input-lastname">
+        <input type="text" name="email" id="input-lastname" placeholder="Sobrenome" required>
+      </label>
+      <label for="input-email">
+        <input type="text" name="email" id="input-email" placeholder="Email" required>
+      </label>
       <div id="checkOption">
         <select id="house" name="" >
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
@@ -67,7 +76,9 @@
         <input type="radio" name="rate" id="numbers" value="9">9
         <input type="radio" name="rate" id="numbers" value="10">10
       </div>
+      <div></div><img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo"></div>
     </form>
+    <!-- não estou entendendo como estas divs, filhas do form estão flex-columm e não ficam lado a lado, falta isso para a oito-->
     <!-- Tenho certeza de que nao tem nenhum erro nesta parte porem o cypress nao aceita -->
   </main>
 

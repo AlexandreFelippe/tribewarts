@@ -4,7 +4,7 @@
 
 // const email = document.querySelector('#input-email');
 // const password = document.querySelector('#input-password')
-// const btn = document.getElementById('btn');
+// const btn = document.getElementById('submit-btn');
 // btn.addEventListener('click', () => {
 //     if (email === "tryber@teste.com" & password === "123456") {
 //         return "Olá, Tryber!"
