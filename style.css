@@ -1,8 +1,24 @@
-.header{
+.header {
   display: flex;
-  background-color: rgb(50 , 167, 145);
+  background-color: rgb(50, 167, 145);
 }
 
-.trybewarts-login{
+.trybewarts-login {
   display: flex;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+}
+
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+#checkSubject {
+  display: flex;
+  flex-direction: column;
 }
