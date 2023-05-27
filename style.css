@@ -9,7 +9,7 @@
 
 main {
   display: flex;
-  flex-direction: column;   /* Essa linha está aqui somente durante os testes */
+  flex-direction: column;
 }
 
 #evaluation-form {
@@ -18,7 +18,7 @@ main {
   flex-direction: column;
 }
 
-#conteudo {
+#checkSubject {
   display: flex;
   flex-direction: column;
 }
