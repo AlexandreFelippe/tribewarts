@@ -67,9 +67,9 @@
       </div>
       <div>
       <label for="" id="label-family">Qual sua família?</label>
-        <input type="radio" name="family" id="type" value="Frontend">Frontend
-        <input type="radio" name="family" id="type" value="Backend">Backend
-        <input type="radio" name="family" id="type" value="Fullstack">Fullstack
+        <input type="radio" name="family" value="Frontend">Frontend
+        <input type="radio" name="family" value="Backend">Backend
+        <input type="radio" name="family" value="FullStack">Fullstack
       </div>
       <div id="avaliation-btns">
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
@@ -88,6 +88,10 @@
     </form>
     <!-- não estou entendendo como estas divs, filhas do form estão flex-columm e não ficam lado a lado, falta isso para a oito-->
     <!-- Tenho certeza de que nao tem nenhum erro nesta parte porem o cypress nao aceita -->
+    <label class=textarea for="question">Deixe seu comentário:</label>
+    <br />
+    <textarea name="why" id="coment" cols="60" rows="10" maxlength="500"
+    ></textarea>
   </main>
 
 
