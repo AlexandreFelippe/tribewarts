@@ -28,8 +28,9 @@ body {
   display: flex;
   align-items: center;
 }
+
 .trybewarts-login p {
-  margin: 0px;
+  margin: 0.5px;
   color: white;
   font-weight: 550;
 }

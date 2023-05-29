@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,12 @@
   <title>Trybewarts</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <header class="header">
-    <img class="trybewarts-header-logo"   src="images/trybewarts-header-logo.svg" alt="Logo da Trybe">
+    <img class="trybewarts-header-logo" src="images/trybewarts-header-logo.svg" alt="Logo da Trybe">
     <h1 id="trybewarts-header-title">Trybewarts</h1>
-    <form action="" method="GET" class = "trybewarts-login">
+    <form action="" method="GET" class="trybewarts-login">
       <label for="input-email">
         <p>Email:</p>
         <input type="text" name="email" id="email" placeholder="Email" required autofocus>
@@ -20,24 +22,24 @@
         <p>Senha:</p>
         <input type="password" name="password" id="password" placeholder="Senha" required>
       </label>
-      <button type="button" id="submit-btn">Entrar</button>
+      <button type="button" id="enter-btn">Entrar</button>
   </header>
   <main id="main">
     <form action=""></form>
-    <form  method="get" action="" id="evaluation-form">
-     <div id="name-lastname">
-       <label for="input-name">
-         <input type="text" name="email" id="input-name" placeholder="Nome" required>
-       </label>
-       <label for="input-lastname">
-         <input type="text" name="email" id="input-lastname" placeholder="Sobrenome" required>
-       </label>
-     </div>
+    <form method="get" action="" id="evaluation-form">
+      <div id="name-lastname">
+        <label for="input-name">
+          <input type="text" name="email" id="input-name" placeholder="Nome" required>
+        </label>
+        <label for="input-lastname">
+          <input type="text" name="email" id="input-lastname" placeholder="Sobrenome" required>
+        </label>
+      </div>
       <div id="checkOption">
-          <label for="input-email">
+        <label for="input-email">
           <input type="text" name="email" id="input-email" placeholder="Email" required>
-          </label>
-        <select id="house" name="" >
+        </label>
+        <select id="house" name="">
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
           <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
@@ -47,11 +49,12 @@
       <div id="checkSubject">
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
         <label for="checkHofs">
-        <input type="checkbox" name="" id="checkHofs" class="subject" value="HoFs">HoFs
+          <input type="checkbox" name="" id="checkHofs" class="subject" value="HoFs">HoFs
         </label>
         <label for="checkJest"><input type="checkbox" name="" id="checkJest" class="subject" value="Jest">Jest
         </label>
-        <label for="checkPromises"><input type="checkbox" name="" id="checkPromises" class="subject" value="Promises">Promises
+        <label for="checkPromises"><input type="checkbox" name="" id="checkPromises" class="subject"
+            value="Promises">Promises
         </label>
         <label for="checkReact"><input type="checkbox" name="" id="checkReact" class="subject" value="React">React
         </label>
@@ -78,14 +81,13 @@
         <input type="radio" name="rate" id="numbers" value="10">10
         <label class=textarea for="question">Deixe seu comentário:</label>
         <br />
-        <textarea name="why" id="coment" cols="60" rows="10" maxlength="500"
-        ></textarea>
+        <textarea name="why" id="coment" cols="60" rows="10" maxlength="500"></textarea>
         <div>
-        <label id = "label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
-       <input type="checkbox" name="agreement" id="agreement" required />
-        </div> 
+          <label id="label-infos" for="agreement">Você concorda com o uso das informações acima?</label>
+          <input type="checkbox" name="agreement" id="agreement" required />
+        </div>
         <div>
-          <button type="submit" id="submit-btn">Enviar</button>
+          <button type="submit" id="submit-btn" disabled>Enviar</button>
         </div>
       </div>
     </form>
@@ -95,5 +97,6 @@
   <footer>Direitos reservados à Trybewarts©.</footer>
 
 </body>
-<script src="script.js"></script>
+
 </html>
+<script src="script.js"></script>
