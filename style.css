@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -11,17 +15,23 @@
 }
 
 .trybewarts-header-logo {
-  width: 100px;
+  width: 80px;
+  height: 80px;
 }
 
 #submit-btn {
   width: 100px;
-  height: 30px;
+  height: 41px;
 }
 
 .trybewarts-login {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+}
+.trybewarts-login p {
+  margin: 0px;
+  color: white;
+  font-weight: 550;
 }
 
 #main {
