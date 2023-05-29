@@ -10,7 +10,7 @@
 
 #main {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
 
 #evaluation-form {
@@ -36,4 +36,10 @@
 #label-family {
   display: flex;
   flex-direction: row;
+}
+
+#trybewarts-logo-form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
