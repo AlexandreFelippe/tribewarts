@@ -36,16 +36,18 @@
       <label for="input-lastname">
         <input type="text" name="email" id="input-lastname" placeholder="Sobrenome" required>
       </label>
-      <label for="input-email">
+      <div class = "email-casa">
+        <label for="input-email">
         <input type="text" name="email" id="input-email" placeholder="Email" required>
-      </label>
-      <div id="checkOption">
+        </label>
+        <div id="checkOption">
         <select id="house" name="" >
           <option value="Gitnória" id="gitnoria-house">Gitnória</option>
           <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
           <option value="Corvinode" id="corvinode-house">Corvinode</option>
           <option value="Pytherina" id="pytherina-house">Pytherina</option>
         </select>
+        </div>
       </div>
       <div id="checkSubject">
         <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
@@ -62,6 +64,12 @@
         </label>
         <label for="checkPython"><input type="checkbox" name="" id="checkPython" class="subject" value="Python">Python
         </label>
+      </div>
+      <div>
+      <label for="" id="label-family">Qual sua família?</label>
+        <input type="radio" name="family" id="type" value="Frontend">Frontend
+        <input type="radio" name="family" id="type" value="Backend">Backend
+        <input type="radio" name="family" id="type" value="Fullstack">Fullstack
       </div>
       <div id="avaliation-btns">
         <label for="" id="label-rate">Como você avalia a Trybewarts?</label>
